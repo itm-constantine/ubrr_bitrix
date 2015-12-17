@@ -117,10 +117,10 @@ $toprint = '
 <div id="callback" style="display: none;">
  <table>
  <tr>
- <h2 onclick="show(this);" style="text-align: center; cursor:pointer;">РћР±СЂР°С‚РЅР°СЏ СЃРІСЏР·СЊ<span style="margin-left: 20px; font-size: 80%; color: grey;" onclick="jQuery(\'#callback\').toggle();">[X]</span></h2>
+ <h2 onclick="show(this);" style="text-align: center; cursor:pointer;">Обратная связь<span style="margin-left: 20px; font-size: 80%; color: grey;" onclick="jQuery(\'#callback\').toggle();">[X]</span></h2>
  </tr>
   <tr>
-         <td>РўРµРјР°</td>
+         <td>Тема</td>
             <td>
             <select name="subject" id="mailsubject" style="width:150px">
               <option selected disabled>Выберите тему</option>
@@ -140,7 +140,7 @@ $toprint = '
  </td>
  </tr>
  <tr>
- <td>РЎРѕРѕР±С‰РµРЅРёРµ</td>
+ <td>Сообщение</td>
  <td>
  <textarea name="maildesc" id="maildesc" cols="30" rows="10" style="width:150px;resize:none;"></textarea>
  </td>
