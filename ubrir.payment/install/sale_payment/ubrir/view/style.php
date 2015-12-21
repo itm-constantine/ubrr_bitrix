@@ -38,7 +38,7 @@ border:1px;
  width:335px;
  bottom: 0;
  left: 0;
- height: 340px;
+ height: 390px;
  z-index:999;
  background-color: white;
  box-shadow: 0 0 25px 3px;

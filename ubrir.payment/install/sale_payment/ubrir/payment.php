@@ -57,7 +57,9 @@ else {
 					break;
 					
 				case 'DECLINED':
-					echo '<div class="ubr_f">Оплата отклонена банком</div>';
+					if(!empty($_GET['desc'])) $desc = '. Причина отказа - '.$_GET['desc'];
+					else $desc ='';
+					echo '<div class="ubr_f">Оплата отклонена банком'.$desc.'</div>';
 					break;
 
 				case '0':

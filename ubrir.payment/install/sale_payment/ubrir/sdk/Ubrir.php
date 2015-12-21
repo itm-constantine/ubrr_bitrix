@@ -65,7 +65,7 @@ class Ubrir
                     <Merchant>'.$this->shopId.'</Merchant>
                     <Amount>'.$amount.'</Amount>
                     <Currency>643</Currency>
-                    <Description>РўРѕРІР°СЂС‹</Description>
+                    <Description>Товары</Description>
                     <ApproveURL>'.$url.'</ApproveURL>
                     <CancelURL>'.$url.'</CancelURL>
                     <DeclineURL>'.$url.'</DeclineURL>
